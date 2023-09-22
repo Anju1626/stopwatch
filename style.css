@@ -1,0 +1,46 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.stopwatch {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.time {
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+.controls button {
+    font-size: 18px;
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.lap-times {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+}
+
+.lap-times li {
+    font-size: 16px;
+    margin: 5px;
+}
